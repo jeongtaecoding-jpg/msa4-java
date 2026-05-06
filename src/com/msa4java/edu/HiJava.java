@@ -9,5 +9,7 @@ public class HiJava {
         String str = "자바";
         int num = 54;
         System.out.printf("안녕 %s : %d", str, num);
+
+
     }
 }
