@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 public class Overloading {
     // 오버로딩 (리턴타입은 상관없고, 이름만 같으면 됨)

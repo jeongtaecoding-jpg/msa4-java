@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 // 정적(static)으로 만들어진 건 스택도 힙도 아닌 독자적인 곳에 저장  예시 : whale.age
 // 메모리 두 영역, 스택과 힙의 차이
@@ -29,6 +29,23 @@ public class MainOOP {
         overloading.print();
         overloading.print('a');
         overloading.print(1,2);
-    }
 
+
+        // 생성자
+        ConJava conJava = new ConJava(20);
+        ConJava conJava1 = new ConJava(30);
+
+        System.out.println(conJava.age);
+        System.out.println(conJava1.age);
+
+        Marine marine = new Marine(40, 6, 0);
+        System.out.println(marine.getHp());
+        marine.setHp(1000);
+        System.out.println(marine.getHp());
+
+
+        // 생성자 오버로딩
+        Marine marine2 = new Marine();
+        System.out.println(marine2.getHp());
+    }
 }
