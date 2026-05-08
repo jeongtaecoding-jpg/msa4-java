@@ -13,9 +13,9 @@ public class AbstractMain {
 
         // 다형성
         // 같은 자료형에 여러가지 타입의 데이터를 대입하여 다양한 결과를 얻어낼 수 있는 성질
+//        자식 클래스가 부모 클래스의 타입으로 업캐스팅됨[위로 한 단계 올라감] (Mammal엔 swimming이 없음)
 //        Mammal whale2 = new Whale("고래2");
 //        whale2.residence();
-        //  자식 클래스가 부모 클래스의 타입으로 업캐스팅됨[위로 한 단계 올라감] (Mammal엔 swimming이 없음)
 //        whale2.swimming(); 오류
 
         Whale whale2 = new Whale("고래2");
@@ -23,7 +23,7 @@ public class AbstractMain {
         whale2.swimming();
 //      castingWhaleToMammal.swimming(); 오류(접근 불가)  // 업캐스팅이 되었을 땐 자식 클래스가 가진 멤버(프로퍼티와 메소드)에는 접근이 불가능
         whale2.breath();
-        // 부모의 형태지만 오버라이딩된 메소드는 여전히 자식의 것을 쓴다. (자식만이 가진 메소드는 안된다는 뜻)
+        // 부모의 형태지만 오버라이딩된 메소드는 여전히 자식의 것을 쓴다. (자식만이 가진 메소드는 안된다)
         castingWhaleToMammal.breath();
 
         // 다운 캐스팅 : 업캐스팅한 인스턴스를 다시 본인의 데이터 타입으로 캐스팅 하는 것 (업캐스팅이 된 것만 가능)
