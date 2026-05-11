@@ -27,5 +27,6 @@ public class GenericsMain {
         List<LocalDateTime> list = new ArrayList<LocalDateTime>(10);
         list.add(LocalDateTime.now());
         list.add(LocalDateTime.of(2026, 5, 8, 17, 20, 30));
+
     }
 }
