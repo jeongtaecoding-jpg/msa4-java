@@ -25,7 +25,7 @@ public class EduArrayList {
             System.out.println(i);  // 1,2,4,5 출력
         }
 
-        // forEach 문
+        // forEach 문 (람다식)
         list.forEach((i) -> {
             System.out.println(i);  // 1,2,4,5 출력
         });
